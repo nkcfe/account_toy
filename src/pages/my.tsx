@@ -1,4 +1,4 @@
-import withAuth from '@/components/shared/hocs/withAuth'
+import withAuth from '@/hooks/withAuth'
 
 import Flex from '@/components/shared/Flex'
 import Spacing from '@/components/shared/Spacing'

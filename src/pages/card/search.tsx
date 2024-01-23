@@ -7,7 +7,7 @@ import { useQuery } from 'react-query'
 import Badge from '@/components/shared/Badge'
 import ListRow from '@/components/shared/ListRow'
 import Text from '@/components/shared/Text'
-import useDebounce from '@/components/shared/hocs/useDebounce'
+import useDebounce from '@/hooks/useDebounce'
 
 const SearchPage = () => {
   const [keyword, setKeyword] = useState('')

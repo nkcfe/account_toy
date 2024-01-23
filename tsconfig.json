@@ -23,7 +23,9 @@
       "@constants" : ["src/constants/index"],
       "@constants/*" : ["src/constants/*"],
       "@models/*" : ["src/models/*"],
-      "@utils/*" : ["src/utils/*"]
+      "@utils/*" : ["src/utils/*"],
+      "@context/*" : ["src/context/*"],
+      "@hooks/*" : ["src/hooks/*"],
 
     },
     "jsxImportSource": "@emotion/react",

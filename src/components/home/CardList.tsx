@@ -5,7 +5,7 @@ import Button from '../shared/Button'
 import ListRow from '../shared/ListRow'
 import Skeleton from '../shared/Skeleton'
 import Text from '../shared/Text'
-import withSuspense from '../shared/hocs/withSuspense'
+import withSuspense from '../../hooks/withSuspense'
 
 import useCards from './hooks/useCards'
 
